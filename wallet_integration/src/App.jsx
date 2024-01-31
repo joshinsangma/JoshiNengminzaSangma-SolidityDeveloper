@@ -29,6 +29,7 @@ function App() {
   return (
     <>
       <div>
+        <h3>Connected Account: <span>{currentAccount}</span></h3>
         <button onClick={connectWallet}>Connect Wallet</button>
       </div>
     </>
